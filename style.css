@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: roboto, "Times New Roman", sans-serif;
+   
+}
+
+.header {
+    background-color: #1f2937;
+    height: 252xp;
+    color: white;
+        
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.under {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+ul {
+    font-size: 18px;
+    list-style-type: none;
+    display: flex;
+    gap: 18px;
+} 
+
+button {
+    background-color: #3882f6;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.awesome img {
+    height: auto;
+    width: 200px;
+    display: block;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.pictures img {
+    height: auto;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.castle {
+    max-width: 150px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.author {
+    font-style: normal;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.call-action {
+    color: white;
+    background-color: #3882f6;
+    text-align: center;
+    font-size: 18px;
+}
+
+.call-action button {
+    margin: white;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    font-size: 16px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
