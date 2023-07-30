@@ -2,7 +2,8 @@
 
 body {
     font-family: roboto, "Times New Roman", sans-serif;
-   
+    margin: 0px;
+    padding: 0px;
 }
 
 .header {
@@ -35,6 +36,15 @@ ul {
     gap: 18px;
 } 
 
+.pressure {
+    display: flex;
+    flex-direction: row;
+}
+
+.awesome {
+    margin: 50px;
+}
+
 button {
     background-color: #3882f6;
     color: white;
@@ -45,10 +55,18 @@ a {
     color: #e5e7eb;
 }
 
-.awesome img {
+.pressure img {
     height: auto;
     width: 200px;
-    display: block;
+    display: block; 
+    margin: 50px
+}
+
+.pressure.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .information {
@@ -78,11 +96,10 @@ a {
 .quote {
     background-color: #e5e7eb;
     color: #1f2937;
+    font-weight: 300;
     font-size: 36px;
     font-style: italic;
     text-align: center;
-    margin: 0;
-    padding: 0;
 }
 
 .author {
