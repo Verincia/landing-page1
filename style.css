@@ -97,9 +97,10 @@ a {
     background-color: #e5e7eb;
     color: #1f2937;
     font-weight: 300;
-    font-size: 36px;
+    font-size: 26px;
     font-style: italic;
     text-align: center;
+    height: 150px;
 }
 
 .author {
@@ -110,14 +111,33 @@ a {
 }
 
 .call-action {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.call {
     color: white;
     background-color: #3882f6;
     text-align: center;
-    font-size: 18px;
+    display: flex;
+    flex-direction: row;
 }
 
-.call-action button {
-    margin: white;
+.action {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    border: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .footer {
